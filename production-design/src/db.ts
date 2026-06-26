@@ -27,6 +27,7 @@ db.exec(`
 `);
 
 export interface ProjectRow {
+  [key: string]: unknown;
   id: string;
   title: string;
   status: string;
