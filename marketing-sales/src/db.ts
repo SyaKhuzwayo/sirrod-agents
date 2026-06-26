@@ -25,6 +25,7 @@ db.exec(`
 `);
 
 export interface AssetRow {
+  [key: string]: unknown;
   id: string;
   title: string;
   asset_type: string;
