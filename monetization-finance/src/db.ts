@@ -39,6 +39,7 @@ db.exec(`
 `);
 
 export interface PricingRow {
+  [key: string]: unknown;
   id: string;
   title: string;
   format: string;
@@ -51,6 +52,7 @@ export interface PricingRow {
 }
 
 export interface RevenueRow {
+  [key: string]: unknown;
   id: string;
   title: string;
   format: string | null;
