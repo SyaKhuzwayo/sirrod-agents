@@ -1,0 +1,23 @@
+{
+  "name": "sirrod-monetization-finance",
+  "version": "1.0.0",
+  "description": "Sirrod Publishings - Monetization & Finance agent MCP server (pricing & revenue per title)",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "mcp-use": "latest",
+    "zod": "^3.23.8",
+    "better-sqlite3": "^11.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.16.0",
+    "@types/node": "^20.14.0",
+    "@types/better-sqlite3": "^7.6.11"
+  }
+}
